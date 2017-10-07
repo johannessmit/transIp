@@ -1,5 +1,5 @@
 {
-  "name": "bitdevelopment/transip",
+  "name": "johannessmit/transip",
   "description": "TransIP API package with laravel support",
   "type": "library",
   "authors": [
