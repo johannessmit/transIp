@@ -1,0 +1,22 @@
+{
+  "name": "bitdevelopment/transip",
+  "description": "TransIP API package with laravel support",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Johannes Smit",
+      "email": "smitjohannes96@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TransIp\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.3.1"
+  }
+}
