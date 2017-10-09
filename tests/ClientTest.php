@@ -9,8 +9,8 @@ class ClientTest extends TestCase
 {
     public function testClientConstruct()
     {
-        $client = new Client('johannessmit', '');
+//        $client = new Client('', '');
 
-        $client->service('vps')->__getFunctions();
+        $client->service('vps')->getVpses();
     }
 }

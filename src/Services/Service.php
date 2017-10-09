@@ -63,7 +63,7 @@ abstract class Service extends \SoapClient
         $this->__setCookie('timestamp', $timestamp);
         $this->__setCookie('nonce', $nonce);
         $this->__setCookie('clientVersion', Client::API_VERSION);
-        $this->__setCookie('signature', urlencode($this->sign($this->apiSettings->getPrivateKey(), [
+        $this->__setCookie('signature', urlencode($this->sign(array_merge($arguments), $this->apiSettings->getPrivateKey(), [
             '__method' => $functionName,
             '__service' => $this->service,
             '__hostname' => $this->apiSettings->getEndpoint(),
