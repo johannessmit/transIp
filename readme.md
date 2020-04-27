@@ -1,21 +1,21 @@
-# ----------------------------------------------------------------------------
-# ----------------------------------------------------------------------------
-# DEPRECATED
-# ----------------------------------------------------------------------------
-# ----------------------------------------------------------------------------
+## ----------------
+## ----------------
+## DEPRECATED:: GO TO::
+## https://www.transip.nl/developers/
+## ----------------
 
-# Trans IP Library
+### Trans IP Library
 
 Trans IP SoapClient translated to easy to use Client.
 
-## Contents
+#### Contents
 
 1. Supported services
 2. documentation
 3. license
 
-## Supported services
+#### Supported services
 
-## Documentation
+#### Documentation
 
-## License
+#### License
